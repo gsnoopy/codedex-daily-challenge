@@ -4,5 +4,6 @@ def check_palindrome(sequence):
   inverted = sequence[::-1]
   
   if sequence.lower() == inverted.lower():
+      return True
   else:
      return False
